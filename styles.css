@@ -156,6 +156,7 @@ body {
     z-index: 100;
     box-shadow: 0 8px 32px rgba(102, 126, 234, 0.15);
     animation: slideDown 0.3s ease-out;
+    align-items: center;
 }
 
 @keyframes slideDown {
@@ -174,11 +175,12 @@ body {
     border-bottom: 1px solid rgba(102, 126, 234, 0.15);
     font-size: 1.1rem;
     transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
 }
 
 .nav-menu.active .nav-link:hover {
     background: rgba(102, 126, 234, 0.1);
-    padding-left: 2.5rem;
 }
 
 /* Hero Section */
