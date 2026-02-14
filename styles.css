@@ -189,10 +189,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 4rem;
     position: relative;
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 100px;
+    padding-top: 2rem;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.05) 50%, rgba(240, 147, 251, 0.1) 100%);
+    flex-direction: column-reverse;
 }
 
 .floating-shapes {
@@ -253,6 +256,8 @@ body {
     text-align: center;
     color: var(--white);
     animation: fadeInUp 1s ease;
+    flex: 1;
+    min-width: 300px;
 }
 
 @keyframes fadeInUp {
@@ -294,6 +299,47 @@ body {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+}
+
+.hero-image {
+    position: relative;
+    z-index: 2;
+    animation: zoomIn 0.8s ease;
+}
+
+.hero-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+    object-fit: cover;
+    animation: floatImage 3s ease-in-out infinite;
+    transition: var(--transition);
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 30px 80px rgba(240, 147, 251, 0.5);
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes floatImage {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
 }
 
 .cta-button {
