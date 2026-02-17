@@ -126,7 +126,7 @@ body.light-mode .hero-title {
 }
 
 body.light-mode .hero-subtitle {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 500;
 }
 
@@ -164,12 +164,12 @@ body.light-mode .about::after {
 }
 
 body.light-mode .about-text {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 600;
 }
 
 body.light-mode .about-text p {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 500;
     line-height: 1.8;
 }
@@ -217,7 +217,7 @@ body.light-mode .skill-card h3 {
 }
 
 body.light-mode .skill-card p {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 500;
 }
 
@@ -254,7 +254,7 @@ body.light-mode .education-card h3 {
 }
 
 body.light-mode .education-card p {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 500;
 }
 
@@ -310,7 +310,7 @@ body.light-mode .timeline-content h3 {
 }
 
 body.light-mode .timeline-content p {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 500;
 }
 
@@ -353,7 +353,7 @@ body.light-mode .contact-info-item i {
 
 body.light-mode .contact-info-item p,
 body.light-mode .contact-info-item .label {
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 600;
 }
 
@@ -546,8 +546,8 @@ body {
 }
 
 .theme-toggle {
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     background: linear-gradient(135deg, rgba(0, 102, 255, 0.25) 0%, rgba(255, 149, 0, 0.15) 100%);
     border: 2px solid var(--primary-color);
@@ -557,8 +557,8 @@ body {
     cursor: pointer;
     transition: var(--transition);
     color: var(--primary-color);
-    font-size: 1.2rem;
-    margin: 0 0.5rem;
+    font-size: 1rem;
+    margin: 0 0.3rem;
     box-shadow: 0 0 20px rgba(0, 102, 255, 0.2), inset 0 0 10px rgba(0, 102, 255, 0.1);
     position: relative;
     animation: themeGlow 3s ease-in-out infinite;
@@ -813,7 +813,7 @@ body.light-mode .nav-menu.active .nav-link:hover {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     opacity: 0.9;
-    color: #0066FF;
+    color: #6b7280;
     font-weight: 600;
 }
 
@@ -1007,12 +1007,12 @@ body.light-mode .nav-menu.active .nav-link:hover {
 .about-text {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #0066FF;
+    color: #6b7280;
 }
 
 .about-text p {
     margin-bottom: 2rem;
-    color: #0066FF;
+    color: #6b7280;
 }
 
 .contact-info {
@@ -1148,7 +1148,7 @@ body.light-mode .nav-menu.active .nav-link:hover {
 }
 
 .skill-card p {
-    color: #0066FF;
+    color: #6b7280;
     font-size: 0.95rem;
 }
 
@@ -1269,7 +1269,7 @@ body.light-mode .nav-menu.active .nav-link:hover {
 .education-card p {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #0066FF;
+    color: #6b7280;
 }
 
 /* Experience Section */
@@ -1389,7 +1389,7 @@ body.light-mode .nav-menu.active .nav-link:hover {
 }
 
 .timeline-content p {
-    color: #0066FF;
+    color: #6b7280;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
@@ -1479,14 +1479,14 @@ body.light-mode .nav-menu.active .nav-link:hover {
 
 .contact-info-item .label {
     font-weight: 700;
-    color: #0066FF;
+    color: #6b7280;
     display: block;
     margin-bottom: 0.3rem;
     font-size: 0.95rem;
 }
 
 .contact-info-item p {
-    color: #0066FF;
+    color: #6b7280;
     margin: 0;
     font-weight: 500;
 }
