@@ -256,6 +256,13 @@ body.light-mode .education-card p {
     font-weight: 500;
 }
 
+body.light-mode .card-icon {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 body.light-mode .education-card:hover {
     background: linear-gradient(135deg, rgba(0, 102, 255, 0.12) 0%, rgba(243, 246, 255, 0.7) 100%);
     box-shadow: 0 12px 30px rgba(0, 102, 255, 0.15);
@@ -1239,7 +1246,12 @@ body.light-mode .nav-menu.active .nav-link:hover {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     animation: bounce 2.5s ease-in-out infinite;
-    filter: drop-shadow(0 0 15px rgba(0, 102, 255, 0.2));
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    transition: var(--transition);
 }
 
 @keyframes bounce {
